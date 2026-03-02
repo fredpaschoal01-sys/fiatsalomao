@@ -327,3 +327,37 @@ header {
 .footer-content p {
   margin: 5px 0; /* espaço entre as linhas do rodapé */
 }
+
+/* ===== AJUSTE MOBILE CARDS ===== */
+@media (max-width: 768px) {
+
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .card h3 {
+    margin: 12px 0 10px 0;
+    font-size: 20px;
+  }
+
+  .card .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+}
